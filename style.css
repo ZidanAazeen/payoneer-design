@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#login-area h2 {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+}
+
+#submit-area {
+    margin-top: 50px;
+    padding: 50px;
+    box-shadow: 5px 5px 10px gray;
+    width: 80%;
+    border-radius: 10px;
+    margin: auto;
+}
+
+
+/* tranaction area start */
+
+#transaction-area {
+    display: none;
+    margin-top: 70px;
+}
+
+#transaction-upper {
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+#deposit-area {
+    background-color: #6A62D0;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 30px;
+    border: 20px solid #ffffff;
+}
+
+#deposit-area h5,
+#withdraw-area h5,
+#balance-area h5 {
+    text-transform: capitalize;
+}
+
+#withdraw-area {
+    background-color: #FFA675;
+    color: #ffffff;
+    padding: 15px;
+    border: 20px solid #ffffff;
+    border-radius: 30px;
+}
+
+#balance-area {
+    background-color: #FFA400;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 30px;
+    border: 20px solid #ffffff;
+}
+
+#transaction-footer {
+    margin: auto;
+}
+
+#deposite2-area h3,
+#withdraw2-area h3 {
+    text-transform: capitalize;
+}
+
+#deposite2-area,
+#withdraw2-area {
+    box-shadow: 5px 5px 10px gray;
+    width: 520px;
+    height: 230px;
+    border-radius: 10px;
+    padding: 30px;
+}

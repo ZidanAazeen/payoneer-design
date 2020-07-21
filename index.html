@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Welcome to our payoneer bank</title>
+
+    <!--    font awesome style start-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!--    font awesome style end-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!--    style sheet end-->
+</head>
+
+<body>
+    <div id="login-area">
+        <h2 class="text-center">welcome to payoneer bank</h2>
+        <div id="submit-area">
+            <h4>Login</h4>
+            <input type="text" placeholder="Email" class="form-control"> <br>
+            <input type="password" placeholder="Password" class="form-control"> <br>
+            <button class="btn btn-success" id="login-btn">Enter</button>
+        </div>
+    </div>
+
+    <!-- transaction area -->
+    <div class="container">
+        <div id="transaction-area">
+            <div class="row" id="transaction-upper">
+                <div class="col-lg-4">
+                    <div id="deposit-area">
+                        <h5>deposit</h5>
+                        <h2>$ <span id="current-deposit">00</span></h2>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div id="withdraw-area">
+                        <h5>withdraw</h5>
+                        <h2>$ <span id="current-withdraw">00</span></h2>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div id="balance-area">
+                        <h5>balance</h5>
+                        <h2>$ <span id="current-balance">1240</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="transaction-footer">
+                <div class="col-lg-6">
+                    <div id="deposite2-area">
+                        <h3>deposit</h3>
+                        <input id="deposit-input" type="text" placeholder="$amount you want to deposit" class="form-control"> <br>
+                        <button class="btn btn-custom btn-success" id="deposit-btn">deposit</button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div id="deposite2-area">
+                        <h3>withdraw</h3>
+                        <input id="withdraw-input" type="text" placeholder="$amount you want to withdraw" class="form-control"> <br>
+                        <button id="withdraw-btn" class="btn btn-custom btn-success" id="deposit-btn">withdraw</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
